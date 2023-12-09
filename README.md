@@ -1,2 +1,2 @@
-# John_Crickett-s_Coding_Challenge-
+# John_Crickett-s_Coding_Challenges
 https://codingchallenges.fyi/
