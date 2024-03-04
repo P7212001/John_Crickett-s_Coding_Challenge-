@@ -4,10 +4,10 @@ import argparse
 def ccwc(filename, option):
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
+    bytes = sys.getsizeof(text)
     lines = text.count('\n')
     words = len(text.split())
     chars = len(text)
-    bytes = sys.getsizeof(text)
     
     if option == 'c':
         print(f'Bytes: {bytes}, {filename}')
